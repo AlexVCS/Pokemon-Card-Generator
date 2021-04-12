@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  margin: 0;
+  background: lemonchiffon;
+  --outer-border-color: #f5d021;
+  --border-color: #edcb44;
+  --red-text-color: #d9041a;
+}

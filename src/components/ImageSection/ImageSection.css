@@ -1,0 +1,25 @@
+.image-section {
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  height: 350px;
+  border:  var(--border-color) 10px solid;
+}
+
+.image-main {
+  top: -95px;
+  position: relative;
+  left: -60px;
+}
+
+.description {
+  text-align: center;
+  background-color: var(--border-color);
+  margin: 10px auto 0 auto;
+  font-weight: 700;
+  width: 450px;
+  padding: 2px;
+  border-left: 8px #f7dd4f solid;
+  border-right: 8px #f7dd4f solid;
+}
