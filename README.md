@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokemon Card Generator
 
-## Available Scripts
+Type in the name of your favorite Pokemon and see their card(s) appear!
 
-In the project directory, you can run:
+[Search for your favorite Pokemon](https://pokemoncardgen.netlify.app/) 🔥
 
-### `npm start`
+## Table of Contents
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Technologies](#technologies)
+* [Attributions](#attributions)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Screenshots
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="left">
+    <img alt="Pikachu pokemon card" src="images/pikachu.png">
+</p>
 
-### `npm test`
+<p align="right">
+    <img alt="Charizard pokemon card" src="images/charizard.png">
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `npm run build`
+Git, Node.js, and NPM are required to run this project. Install Git by [following this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). If you don't have Node and NPM installed please follow [these instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Click the green code button:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<img alt="Screenshot showing the green code button on GitHub" src="images/greenCodeButton.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. From there, click the button to the right of the URL under HTTPS. This will copy the URL of the repository.
 
-### `npm run eject`
+3. Then open your terminal or command line. If you haven't used the command line before [learn how to here](https://www.theodinproject.com/lessons/foundations-command-line-basics).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. If you've got a folder where you keep projects, change directories into that folder. After that type this command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```git clone https://github.com/AlexVCS/Pokemon-Card-Generator.git```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This clones the repository to your local machine. It has a root directory called `Pokemon-Card-Generator` to store all the files.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. Change directories into that folder:
 
-## Learn More
+```cd Pokemon-Card-Generator```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After that you can open the project in your text editor of choice. I use Visual Studio Code and launch it from the command line. [Learn how here](https://code.visualstudio.com/docs/setup/mac).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Once you have the project open, you need to install the dependencies. Run this in your command line from the root (Pokemon-Card-Generator folder) of the project:
 
-### Code Splitting
+```npm install```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+7. After that finishes, run this to start the project:
 
-### Analyzing the Bundle Size
+```npm start```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Technologies
 
-### Making a Progressive Web App
+* React
+* CSS
+* JavaScript
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Attributions
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+*[Pokemon TCG API](https://pokemontcg.io/)*
